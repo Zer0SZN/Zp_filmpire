@@ -81,6 +81,31 @@ module.exports = {
           'preferButton',
         ],
       },
+      {
+        "name": "zp_filmpire",
+        "...": "...",
+        "dependencies": {
+          "builtin-modules": "^1.1.1",
+          "lodash.cond": "^4.2.0",
+          "lodash.find": "^4.2.0",
+          "pkg-up": "^1.0.0"
+        },
+        "devDependencies": {
+          "ava": "^0.13.0",
+          "eslint": "^2.4.0",
+          "eslint-plugin-ava": "^1.3.0",
+          "xo": "^0.13.0"
+        },
+        "optionalDependencies": {
+          "lodash.isarray": "^4.0.0"
+        },
+        "peerDependencies": {
+          "react": ">=15.0.0 <16.0.0"
+        },
+        "bundledDependencies": [
+          "@generated/foo",
+        ]
+      },
     ],
   },
 };
